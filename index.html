@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>OpenFin Example</title>
+  </head>
+  <body>
+    
+   
+    <div id="time" class="time"></div>
+    <h1 class="headline">Application One</h1>
+
+    <script src="js/app.js"></script>
+   
+   <script>
+  
+      var timeElement = document.getElementById("time");
+      function setTime() {
+        timeElement.innerHTML = new Date().toLocaleString();
+      }
+      setTime();
+      var clockIntervalId = setInterval( function(){ setTime() }, 1000);
+      function closeMyApp(){
+      fin.desktop.Application.getCurrent().close();
+      }
+
+
+
+</script>
+
+
+  </body>
+</html>

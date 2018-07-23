@@ -1,0 +1,33 @@
+{
+    "devtools_port": 9090,
+    "offlineAccess": false,
+    "startup_app": {
+        "name": "OpenfinPOC",
+        "description": "OpenFin POC",
+        "loadErrorMessage": "This is a error message",
+        "url": "http://localhost:8080/index.html",
+        "uuid": "Application000001",
+        "icon": "http://localhost:8080/favicon.ico",
+        "contextMenu": true,
+        "defaultWidth": 300,
+        "defaultHeight": 400,
+        "frame": true,
+        "shadow": true,
+        "resizable": true,
+        "windowState": "normal",
+        "saveWindowState": false,
+        "autoShow": true,
+        "showTaskbarIcon": true,
+        "applicationIcon": "http://localhost:8080/favicon.ico"
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "stable-v8"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin POC",
+        "name": "Openfin POC",
+        "icon": "http://localhost:8080/favicon.ico"
+    }
+}

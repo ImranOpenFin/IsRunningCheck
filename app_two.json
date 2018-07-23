@@ -1,0 +1,24 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "OpenfinPOC",
+        "description": "OpenFin POC",
+        "url": "http://localhost:8080/anotherApplication.html",
+        "uuid": "AnotherApp2",
+        "defaultWidth": 100,
+        "defaultHeight": 100,
+        "frame":true,
+        "resize": true,
+        "saveWindowState": true,
+        "autoShow": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "stable-v8"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin POC",
+        "name": "Openfin POC"
+    }
+}
